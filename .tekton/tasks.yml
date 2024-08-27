@@ -39,6 +39,7 @@ kind: Task
 metadata:
   name: nose
 spec:
+  description: This task will run tests
   workspaces:
     - name: source
   params:
